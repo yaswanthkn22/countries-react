@@ -1,4 +1,3 @@
-import { useState } from "react";
 const Search = ({onSearch, search})=>{
     return (
         <div className="search-container">

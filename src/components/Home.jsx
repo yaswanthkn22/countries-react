@@ -1,4 +1,3 @@
-import Header from "./Header";
 import Board from "./Board";
 import { useState, useEffect } from 'react';
 import Search from "./Search";
