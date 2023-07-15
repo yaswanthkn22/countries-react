@@ -3,7 +3,7 @@ const Card = ({cardsDetails})=>{
     return (
         <Link to={`country/${cardsDetails.key}`}>
             <div className="card" key={cardsDetails.key}>
-                <img src={cardsDetails.img} alt="Country image" />
+                <img src={cardsDetails.img} alt={cardsDetails.name} />
                 <div className="info">
                     <p><b>Name:</b>{cardsDetails.name}</p>
                     <p><b>Population:</b>{cardsDetails.population}</p>
