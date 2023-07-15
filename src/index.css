@@ -125,6 +125,7 @@ a {
 }
 .region {
   display: flex;
+
   column-gap: 20px;
   padding: 10px;
 }
@@ -135,8 +136,8 @@ a {
 .region select {
   border: 2px solid rgb(114, 111, 111);
   border-radius: 10px;
-  width: 80px;
   font-size: 18px;
+  max-width: 100%;
 }
 
 @media  screen and (max-width: 720px){
