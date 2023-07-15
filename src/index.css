@@ -123,3 +123,14 @@ a {
   color: rgb(10, 10, 10);
   margin-right: 10px;
 }
+
+@media  screen and (max-width: 380px){
+  .country {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+  }
+  .country-info {
+    margin-top: 30px;
+  }
+}
